@@ -19,6 +19,13 @@ dd {
   margin-bottom: 10px;
 }
 
+dt a {
+  font-weight: normal;
+}
+dt {
+  font-weight: bold;
+}
+
 ul {
   padding: 0;
 }
