@@ -1,8 +1,80 @@
+* {
+  font-family: helvetica;
+  font-size: 12px;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
 
 span.burrito {
   font-weight: bold;
 }
 
+dd {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
 ul li {
-  width: 500px;
+  width: 40em;
+  text-indent: 0;
+  list-style: none;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+div {
+  padding: 0.2em 1.0em;
+  margin: 1.0em;
+}
+
+p.note {
+  text-align: center;
+  color: #bbb;
+}
+
+p.note a {
+  color: #bbb;
+}
+
+div#main {
+  height: 350px;
+}
+
+div#burrito {
+  float: left;
+  width: 400px;
+  margin-right: 30px;
+}
+
+div#team {
+  float: left;
+}
+
+div#footer ul {
+  width: 260px;
+  margin: 0 auto;
+}
+
+div#footer ul li {
+  display: inline;
+  padding: 1.0em;
 }
